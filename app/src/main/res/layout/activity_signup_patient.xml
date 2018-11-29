@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SignupPatient">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="14dp"
+        android:hint="Enter your name"
+        android:inputType="text" />
+
+    <EditText
+        android:hint="Enter mail id"
+        android:id="@+id/email"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/nameDoc"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:ignore="LabelFor"
+        android:layout_alignLeft="@+id/nameDoc" />
+
+    <EditText
+        android:hint="Phone"
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bg"
+        android:layout_alignStart="@+id/nameDoc"
+        android:layout_marginBottom="-171dp"
+        android:ems="10"
+        android:inputType="phone"
+        tools:ignore="LabelFor"
+        android:layout_alignLeft="@+id/nameDoc" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/nameDoc"
+        android:layout_marginBottom="216dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        tools:ignore="LabelFor"
+        android:layout_alignLeft="@+id/nameDoc" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/nameDoc"
+        android:layout_marginBottom="157dp"
+        android:ems="10"
+        android:hint="Enter Password Again"
+        android:inputType="textPassword"
+        tools:ignore="LabelFor"
+        android:layout_alignLeft="@+id/nameDoc" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="82dp"
+        android:layout_marginStart="102dp"
+        android:background="@android:color/holo_red_light"
+        android:text="sign_up"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="102dp" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "472287922307",
+    "firebase_url": "https://doctorbabu-a25cb.firebaseio.com",
+    "project_id": "doctorbabu-a25cb",
+    "storage_bucket": "doctorbabu-a25cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472287922307:android:c7f438a180563647",
+        "android_client_info": {
+          "package_name": "com.shubham.dell.doctorbabu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472287922307-ta158lv2i4dtrder1emorip6ovseb9hh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubham.dell.doctorbabu",
+            "certificate_hash": "27959765bdb7368b8d6ebd56abbe7cf95561c246"
+          }
+        },
+        {
+          "client_id": "472287922307-8fbvegmnvqjgsoviqkvl3j22cr8v3ti6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3-j2KyQfDY_bdYHNrQEMMVyprE66Ged4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472287922307-8fbvegmnvqjgsoviqkvl3j22cr8v3ti6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
